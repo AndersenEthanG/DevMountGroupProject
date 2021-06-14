@@ -12,6 +12,7 @@
 		AA808A872677B1870046FB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA808A852677B1870046FB43 /* Main.storyboard */; };
 		AA808A892677B1880046FB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA808A882677B1880046FB43 /* Assets.xcassets */; };
 		AA808A8C2677B1880046FB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA808A8A2677B1880046FB43 /* LaunchScreen.storyboard */; };
+		AACE1F2A2677B7C700BF7748 /* SuperheroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE1F292677B7C700BF7748 /* SuperheroDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AA808A882677B1880046FB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA808A8B2677B1880046FB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA808A8D2677B1880046FB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACE1F292677B7C700BF7748 /* SuperheroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		AA808A962677B1BF0046FB43 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AACE1F292677B7C700BF7748 /* SuperheroDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACE1F2A2677B7C700BF7748 /* SuperheroDetailViewController.swift in Sources */,
 				AA808A802677B1870046FB43 /* AppDelegate.swift in Sources */,
 				AA808A822677B1870046FB43 /* SceneDelegate.swift in Sources */,
 			);
