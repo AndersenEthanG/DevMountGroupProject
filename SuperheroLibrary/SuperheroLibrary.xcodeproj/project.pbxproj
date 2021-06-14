@@ -13,6 +13,7 @@
 		AA808A892677B1880046FB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA808A882677B1880046FB43 /* Assets.xcassets */; };
 		AA808A8C2677B1880046FB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA808A8A2677B1880046FB43 /* LaunchScreen.storyboard */; };
 		AACE1F2A2677B7C700BF7748 /* SuperheroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE1F292677B7C700BF7748 /* SuperheroDetailViewController.swift */; };
+		AACE1F2D2677BD8A00BF7748 /* PrettyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE1F2C2677BD8A00BF7748 /* PrettyDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA808A8B2677B1880046FB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA808A8D2677B1880046FB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AACE1F292677B7C700BF7748 /* SuperheroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroDetailViewController.swift; sourceTree = "<group>"; };
+		AACE1F2C2677BD8A00BF7748 /* PrettyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AA808A992677B1D00046FB43 /* Models */,
 				AA808A972677B1C50046FB43 /* Controllers */,
 				AA808A942677B1A80046FB43 /* Views */,
+				AACE1F2B2677BD7200BF7748 /* Helpers and Extensions */,
 				AA808A932677B1950046FB43 /* Resources */,
 			);
 			path = SuperheroLibrary;
@@ -121,6 +124,14 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AACE1F2B2677BD7200BF7748 /* Helpers and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AACE1F2C2677BD8A00BF7748 /* PrettyDetailView.swift */,
+			);
+			path = "Helpers and Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				AACE1F2A2677B7C700BF7748 /* SuperheroDetailViewController.swift in Sources */,
 				AA808A802677B1870046FB43 /* AppDelegate.swift in Sources */,
 				AA808A822677B1870046FB43 /* SceneDelegate.swift in Sources */,
+				AACE1F2D2677BD8A00BF7748 /* PrettyDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA96DJZ7VH;
-				INFOPLIST_FILE = SuperheroLibrary/Info.plist;
+				INFOPLIST_FILE = SuperheroLibrary/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA96DJZ7VH;
-				INFOPLIST_FILE = SuperheroLibrary/Info.plist;
+				INFOPLIST_FILE = SuperheroLibrary/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
